@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ddcdba;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* styles.css */
+
+/* Estilo general del cuerpo */
+body {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgb(2, 2, 2);
+    position: auto;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo del encabezado */
+h1 {
+    text-align: center;
+    color: #5b3a29; /* Color marrón oscuro */
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc; /* Borde gris claro */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #d2b48c; /* Beige más oscuro para el encabezado */
+}
+
+/* Estilo de los botones */
+button {
+    background-color: #8b4513; /* Marrón */
+    color: rgb(0, 0, 0); /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+button:hover {
+    background-color: #a0522d; /* Marrón más claro al pasar el mouse */
+}
+
+/*login styles*/
+/* style.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9baa0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del contenedor del formulario */
+.container {
+    width: 300px;
+    margin: 100px auto; /* Centrar el contenedor vertical y horizontalmente */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los encabezados */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo de las etiquetas y campos de entrada */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo del botón */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c1b1b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #44bb62;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Iniciar Sesión</title>
+</head>
+<style>
+    body {
+
+        .logo {
+            position: absolute; /* Posiciona el logo de manera absoluta */
+            top: 20px; /* Espacio desde la parte superior */
+            right: 20px; /* Espacio desde la derecha */
+            width: 100px; /* Ajusta el tamaño del logo según sea necesario */
+        }  
+        img {
+            width: 40px; /* Ajusta el tamaño de las imágenes */
+            margin-right: 15px; /* Espacio a la derecha de la imagen */
+        }
+    }
+</style>
+<body>
+        <header>
+            <a href="index.html"><img src="images/logotutor.jpg" alt="Logo Tutor Plus"></a>
+        </header>
+    <h2>Iniciar Sesión</h2>
+    <form method="POST" action="">
+        <label for="username">Correo:</label>
+        <input type="email" name="username" required>
+        <br>
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password" required>
+        <br>
+        <input type="submit" value="Iniciar Sesión">
+    </form>
+</body>
+</html>

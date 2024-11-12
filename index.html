@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tutor Plus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5dc; /* Beige claro */
+            color: #3b2f2f; /* Café oscuro para el texto */
+            position: relative; /* Permite posicionar elementos relativos a este contenedor */
+        }
+        h1 {
+            text-align: center;
+            color: #2f2f2f; /* Negro */
+            margin: 20px 0; /* Espacio alrededor del encabezado */
+        }
+        h2 {
+            text-align: center;
+            text-shadow: #2f2f2f;
+            color: #2f2f2f; /* Negro */
+            margin: 30px 0; /* Espacio alrededor del encabezado */
+        }
+    
+         .logo {
+            position: absolute; /* Posiciona el logo de manera absoluta */
+            top: 20px; /* Espacio desde la parte superior */
+            right: 20px; /* Espacio desde la derecha */
+            width: 56px; /* Ajusta el tamaño del logo según sea necesario */
+        }
+        .container {
+            display: flex; /* Utiliza flexbox para alinear en fila */
+            justify-content: space-around; /* Espacio uniforme entre los elementos */
+            margin-top: 40px; /* Espacio arriba de los apartados */
+            padding: 0 20px; /* Espaciado lateral */
+        }
+        .apartado {
+            text-align: center; /* Centrar el texto */
+            margin: 10px; /* Espaciado entre los apartados */
+            padding: 20px; /* Espaciado interno */
+            background-color: #fff8dc; /* Crema */
+            border: 2px solid #3b2f2f; /* Bordes en color café */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto de profundidad */
+            transition: transform 0.2s; /* Transición suave */
+        }
+        .apartado:hover {
+            transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+            background-color: #f0e68c; /* Amarillo pálido al pasar el ratón */
+        }
+        img {
+            width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+            cursor: pointer;
+            border-radius: 8px; /* Bordes redondeados para la imagen */
+            margin-top: 10px; /* Espacio arriba de las imágenes */
+        }
+        footer {
+            text-align: center; /* Centrar el texto del pie de página */
+            margin-top: 20px; /* Espaciado superior */
+            padding: 10px; /* Espaciado interno */
+            background-color: #3b2f2f; /* Café oscuro */
+            color: #ffffff; /* Texto blanco */
+            border-radius: 8px; /* Bordes redondeados */
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+		<div>
+			<div id="logo">
+				<a href="index.html"><img src="images/logotutor.jpg" alt="Logo"/></a>
+			</div>
+			<div id="navigation">
+				<div>
+    <header>
+        <h1>Bienvenido a Tutor Plus</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">Iniciar sesión</a></li>
+                <li><a href="register.html">Registro</a></li>
+                <li><a href="collaborators.html">Colaboradores</a></li>
+                <li><a href="test_material.html">Material de prueba</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>NOSOTROS</h2>
+        <p>
+            En Tutor Plus, creemos que cada estudiante tiene un potencial único que merece ser desarrollado y potenciado. Nacimos con el propósito de ofrecer un acompañamiento académico personalizado que facilite el aprendizaje y fomente la confianza en las habilidades de cada persona. Nuestro equipo de tutores está comprometido en crear un ambiente de estudio efectivo, motivador y adaptado a las necesidades de nuestros estudiantes, proporcionando herramientas prácticas para superar cualquier desafío académico. Ya sea que necesites apoyo en temas específicos o una guía integral para alcanzar tus objetivos académicos, estamos aquí para ayudarte a cada paso del camino. 
+        </p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tutor Plus</p>
+    </footer>
+</body>
+</html>
+

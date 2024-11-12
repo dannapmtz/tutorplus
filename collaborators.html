@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Colaboradores</title>
+    <style>
+        .collaborators {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .collaborator {
+            text-align: center;
+            margin: 10px;
+        }
+        .collaborator img {
+            width: 260px;
+            height: 332px;
+            object-fit: cover; /* Mantiene la proporción de la imagen */
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5dc; /* Beige claro */
+            color: #3b2f2f; /* Café oscuro para el texto */
+            position: relative; /* Permite posicionar elementos relativos a este contenedor */
+        }
+        h1 {
+            text-align: center;
+            color: #2f2f2f; /* Negro */
+            margin: 20px 0; /* Espacio alrededor del encabezado */
+        }
+        .image {
+            position: right; /* Posiciona el logo de manera absoluta */
+            cursor: pointer;
+            top: 20px; /* Espacio desde la parte superior */
+            right: 800px; /* Espacio desde la derecha */
+            width: 55px; /* Ajusta el tamaño del logo según sea necesario */
+            border-radius: 8px; /* Bordes redondeados para la imagen */
+            margin-top: 10px; /* Espacio arriba de las imágenes */
+
+        }
+        .container {
+            display: flex; /* Utiliza flexbox para alinear en fila */
+            flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas */
+            justify-content: space-around; /* Espacio uniforme entre los elementos */
+            margin-top: 40px; /* Espacio arriba de los colaboradores */
+            padding: 0 20px; /* Espaciado lateral */
+        }
+        .colaborador {
+            text-align: center; /* Centrar el texto */
+            margin: 10px; /* Espaciado entre los colaboradores */
+            padding: 20px; /* Espaciado interno */
+            background-color: #fff8dc; /* Crema */
+            border: 2px solid #3b2f2f; /* Bordes en color café */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto de profundidad */
+            transition: transform 0.2s; /* Transición suave */
+            width: 200px; /* Ancho fijo para los colaboradores */
+        }
+        .colaborador:hover {
+            transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+            background-color: #f0e68c; /* Amarillo pálido al pasar el ratón */
+        }
+        img {
+            width: 55px; /* Ajusta el tamaño de la imagen según sea necesario */
+            cursor: pointer;
+            border-radius: 8px; /* Bordes redondeados para la imagen */
+            margin-top: 10px; /* Espacio arriba de las imágenes */
+        }
+        footer {
+            text-align: center; /* Centrar el texto del pie de página */
+            margin-top: 40px; /* Espaciado superior */
+            padding: 10px; /* Espaciado interno */
+            background-color: #3b2f2f; /* Café oscuro */
+            color: #ffffff; /* Texto blanco */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2); /* Sombra en la parte superior */
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div>
+            <div id="logo">
+            <a href="index.html"><img src="images/logotutor.jpg" alt="Logo"/></a>
+            </div>
+                <div id="navigation">
+                <div>
+            
+    <h2>Nuestros Colaboradores</h2>    
+    <nav>
+        <ul>
+            <li><a href="login.html">Iniciar sesión</a></li>
+            <li><a href="register.html">Registro</a></li>
+            <li><a href="collaborators.html">Colaboradores</a></li>
+            <li><a href="test_material.html">Material de prueba</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="collaborators">
+        <div class="collaborator">
+            <img src="images/gaelcolab3.jpg" alt="Colaborador 1">
+            <p>Nombre: Gael Sauceda Oliva</p>
+            <p>Carrera: Lic. en Administración</p>
+            <button onclick="window.location.href='more_info1.html'">Conocer más</button>
+        </div>
+        <div class="collaborator">
+            <img src="images/noviacolab2.jpg" alt="Colaborador 2">
+            <p>Nombre: Samantha Villa Rodríguez</p>
+            <p>Carrera: Lic. en Contaduría Pública</p>
+            <button onclick="window.location.href='more_info2.html'">Conocer más</button>
+        </div>
+        <div class="collaborator">
+            <img src="images/cesarcolab1.jpg" alt="Colaborador 3">
+            <p>Nombre: César Osvaldo Alcocer Soto</p>
+            <p>Carrera: Lic. en Tecnologías de la Información</p>
+            <button onclick="window.location.href='more_info3.html'">Conocer más</button>
+        </div>
+    </div>
+</body>
+</html>

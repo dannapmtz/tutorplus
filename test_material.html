@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Material</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5dc; /* Beige claro */
+            color: #3b2f2f; /* Café oscuro para el texto */
+        }
+        .logo {
+            position: absolute; /* Posiciona el logo de manera absoluta */
+            top: 20px; /* Espacio desde la parte superior */
+            right: 20px; /* Espacio desde la derecha */
+            width: 56px; /* Ajusta el tamaño del logo según sea necesario */
+        }
+        h1 {
+            text-align: center;
+            color: #2f2f2f; /* Negro */
+        }
+        .container {
+            display: flex; /* Utiliza flexbox para alinear en fila */
+            justify-content: space-around; /* Espacio uniforme entre los elementos */
+            margin-top: 20px;
+        }
+        .apartado {
+            text-align: center; /* Centrar el texto */
+            margin: 10px; /* Espaciado entre los apartados */
+            padding: 15px; /* Espaciado interno */
+            background-color: #fff8dc; /* Crema */
+            border: 2px solid #3b2f2f; /* Bordes en color café */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto de profundidad */
+            transition: transform 0.2s; /* Transición suave */
+        }
+        .apartado:hover {
+            transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+        }
+        img {
+            width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+            cursor: pointer;
+            border-radius: 8px; /* Bordes redondeados para la imagen */
+            position: left;
+        }
+        footer {
+            text-align: center; /* Centrar el texto del pie de página */
+            margin-top: 20px; /* Espaciado superior */
+            padding: 10px; /* Espaciado interno */
+            background-color: #3b2f2f; /* Café oscuro */
+            color: #ffffff; /* Texto blanco */
+            border-radius: 8px; /* Bordes redondeados */
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">
+    <img src="images/logotutor.jpg" alt="Logo Tutor Plus" class="logo"> <!-- Logo en la esquina superior derecha -->
+    </a>
+    
+    <h1>Material de Prueba</h1>
+
+    <div class="apartado">
+        <h2>Lic. en Administración</h2>
+        <a href="https://drive.google.com/drive/folders/1yfi0koeUoKmhlLJq392eCImgxxeMtQBs" target="_blank">
+            <img src="images/matprueb.jpg" alt="Imagen Apartado 1">
+        </a>
+    </div>
+
+    <div class="apartado">
+        <h2>Lic. en Contaduría Pública</h2>
+        <a href="https://drive.google.com/drive/folders/1yoVYyYkODgBCef2Ixh-Ri1Wvq1igqaz9" target="_blank">
+            <img src="images/matprueb.jpg" alt="Imagen Apartado 2">
+        </a>
+    </div>
+
+    <div class="apartado">
+        <h2>Lic. en Tecnologías de la Información</h2>
+        <a href="https://drive.google.com/drive/folders/1yktCwCwREbdN29bVPsYeVb_GCwJub1DE" target="_blank">
+            <img src="images/matprueb.jpg" alt="Imagen Apartado 3">
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tutor Plus</p>
+    </footer>
+
+</body>
+</html>
